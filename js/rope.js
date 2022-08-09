@@ -42,7 +42,7 @@ class Rope {
     this.body = null
   }
 
-  show() {
+  display() {
     if (this.body != null) {
       for (let i = 0; i < this.body.bodies.length - 1; i++) {
         this.drawVertices(this.body.bodies[i].vertices)
